@@ -1,0 +1,33 @@
+{
+  "name": "observable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superwzx/observable.git"
+  },
+  "author": "wzx175@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/superwzx/observable/issues"
+  },
+  "homepage": "https://github.com/superwzx/observable#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "jasmine-core": "^2.99.1",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.1",
+    "karma-webpack": "^2.0.9",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "subscribable": "github:scoliid/subscribable"
+  }
+}
